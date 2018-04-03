@@ -1,0 +1,76 @@
+li{list-style: none;}
+
+.bandeau{
+    width : 100%;
+    height: 216px;
+    background-image: url("../img/bandeau.png");
+
+}
+.page__title,
+.coach,
+.conference__title{
+    text-align: center;
+    color : #81af83;
+    font-family : tahu, sans-serif;
+    font-weight : normal !important;
+}
+
+.page__title{
+    position : absolute;
+    top : 35%;
+    left : 28%;
+    margin-bottom : 150px;
+
+    font-size : 100px;
+}
+
+.coach,
+.conference__title{
+    margin-top: 200px;
+    margin-bottom : 30px;
+
+    font-size : 70px;
+}
+
+.coach__description{
+    text-align: justify;
+    text-align-last: center;
+    font-size : 14px;
+}
+
+.program__list{
+    font-size : 16px;
+    text-transform : uppercase;
+}
+/* BLOC */
+.bloc,
+.about-me__description{
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.bloc{
+    width: 65%;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.repas_coach{
+    position: absolute;
+    left: 60%;
+    top: 115%;
+    z-index: -1;
+}
+
+.repas_coach,
+.conference_micro{
+    width: 330px;
+}
+
+.about-me__description{
+    position: absolute;
+    left: 30%;
+    width: 50%;
+    margin-top: 80px;
+    text-align : center;
+}

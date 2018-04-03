@@ -1,0 +1,83 @@
+.bandeau{
+    width : 100%;
+    height: 216px;
+    background-image: url("../img/bandeau.png");
+
+}
+.page__title,
+.about-me,
+.mon-parcours,
+.me-contacter{
+    text-align: center;
+    color : #81af83;
+    font-family : tahu, sans-serif;
+    font-weight : normal !important;
+}
+
+.about-me,
+.mon-parcours,
+.me-contacter{
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+.mon-parcours,
+.me-contacter{margin-top: 100px;}
+
+.page__title{
+    position : absolute;
+    top : 35%;
+    left : 35%;
+    margin-bottom : 150px;
+
+    font-size : 100px;
+}
+
+/* SHORT DESCRIPTION */
+.name__description{
+    padding: 140px;
+    text-align: center;
+}
+/* A PROPOS */
+.about__photo{width: 35%;}
+.about-me__description{
+    position: absolute;
+    left: 36%;
+    width: 50%;
+    bottom: -92%;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+/* MON PARCOURS */
+
+/* STYLE FORM */
+/*input*/
+.form__name,
+.form__email,
+.form__message{
+    border : 2px solid #b3b3b3 !important;
+    -webkit-border-radius : 10px!important;
+    -moz-border-radius : 10px!important;
+    border-radius : 10px!important;
+}
+
+.form__name,
+.form__email,
+.form__select{height : 40px;}
+
+.form__name{width : 49%;}
+.form__email,
+.form__select{width : 100%;}
+
+.email,
+.sujet{
+    display : inline-block;
+    width: 49%;
+}
+/*button*/
+.form__submit{
+    padding : 10px 50px !important;
+    -webkit-border-radius : 10px !important;
+    -moz-border-radius : 10px !important;
+    border-radius : 10px !important;
+    background-color: #e73a1d !important;
+}

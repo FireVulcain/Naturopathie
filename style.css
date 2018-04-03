@@ -1,0 +1,234 @@
+/*
+ Theme Name:   Mon thème enfant
+ Theme URI:    localhost
+ Description:  Theme enfant
+ Template:     primer
+ Version:      1.0.0
+*/
+
+
+@font-face {
+    font-family: tahu;
+    src: url(font/Tahu!.ttf);
+}
+
+/*GENERAL*/
+body{background-color: #FFFFFF !important;}
+a{color: #000000 !important;}
+
+.savoirPlus{
+	padding: 16px 40px;
+	-webkit-border-radius : 10px !important;
+	-moz-border-radius : 10px !important;
+	border-radius : 10px !important;
+
+	color : #FFFFFF !important;
+	background-color: #e73a1d !important;
+
+
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* MENU & HEADER */
+.navigation__title{float : left;}
+
+#navigation-principale{margin: 10px;}
+
+	#navigation-principale ul{
+        text-align: right;
+        margin: 0;
+    }
+	#navigation-principale li {
+	    position: relative;
+	    display : inline-block;
+	    padding: 10px;
+		font-size : 15px;
+		text-transform: uppercase;
+		list-style: none;
+	}
+
+.nav__home a,
+.nav__la-naturopathie a,
+.nav__about a,
+.nav__consultation a,
+.nav__other a {color : #57934b !important;}
+
+.nav__rendez-vous{
+	margin-right: 20px;
+	-webkit-border-radius : 10px;
+	-moz-border-radius : 10px;
+	border-radius : 10px;
+	background-color: #e73a1d;
+
+}
+.nav__rendez-vous a{
+	color : #FFFFFF !important;
+	text-transform : uppercase;
+}
+
+a:hover{text-decoration: none;}
+
+
+.site-header{
+    background-image: url("img/bg.png");
+	background-color : transparent !important;
+	color : transparent !important;
+    height: 100vh;
+    text-align: center;
+}
+.site-header a{
+    position : absolute;
+    top : 40%;
+    left : 35%;
+    width : 30%;
+    z-index: 10;
+}
+.site-header-wrapper{
+    margin-top: 35vh;
+    transform: translateY(-35%);
+}
+
+/*DEFINITION*/
+.definition{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.definition__title,
+.definition__text{
+	margin-bottom: 35px;
+}
+
+.definition__title{
+    color          : #81af83;
+    font-family    : tahu, sans-serif;
+    font-size : 70px;
+}
+
+
+/*ARTICLE*/
+.article{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.row {display: flex;}
+
+.articleList {
+    margin-right: 30px;
+    padding: 20px;
+	text-align: justify;
+}
+	.articleList h2{text-align: left;}
+	.article__title{
+		text-transform : uppercase;
+        color : #81af83 !important;
+		font-size : 23px;
+	}
+	.article__savoirPlus a{margin: 60px 0 0 0}
+
+/* DESCRIPTION CLIENTE */
+
+.apropos{
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.photo{
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title{
+    color : #81af83;
+    font-family: tahu, sans-serif;
+	font-size: 70px;
+    margin-bottom: 0;
+}
+.subtitle{
+	margin-top: 0;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+
+.description{
+    position: absolute;
+    bottom: 14%;
+    left: 46%;
+}
+
+	.description__texte{
+		padding: 50px;
+	    background-color: white;
+	    text-align: center;
+		transition: box-shadow .3s;
+	}
+	.description__texte:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+
+/* CONSULTATION */
+.consultations{
+	text-align: center;
+}
+
+	.consultations__title{
+        color : #81af83;
+        font-weight : normal;
+        font-family : tahu, sans-serif;
+		font-size: 70px;
+
+	    letter-spacing: 2px;
+	    margin-bottom: 60px;
+	}
+
+
+    .consultations__lieu,
+    .consultations__horaire,
+    .consultations__list,
+    .consultations__type{
+        text-transform: uppercase;
+    }
+	.consultations__lieu{margin-bottom: 0;}
+	.consultations__horaire{margin-top: 0;}
+	.consultations__type{margin-bottom: 50px;}
+    .consultations__list{font-weight : bold;}
+
+/* FOOTER */
+.footer{
+	text-align: center;
+	margin-top: 100px;
+
+	background-color: #57934b;
+}
+.footer__followMe{
+	padding-top: 30px;
+	margin:0;
+
+	font-weight: bold;
+}
+.footer__social{
+	width: 70px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.linkedin{
+	margin-right: 35px;
+}
+.footer__copyright{
+	margin: 0;
+    padding-bottom: 25px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .row{display : block;}
+}
+
+

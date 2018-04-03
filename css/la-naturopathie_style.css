@@ -1,0 +1,103 @@
+li{list-style: none;}
+/* TITRE */
+.bandeau{
+    width : 100%;
+    height: 216px;
+    background-image: url("../img/bandeau.png");
+
+}
+
+.part,
+.page__title{
+    text-align: center;
+    color : #81af83;
+    font-family : tahu, sans-serif;
+    font-weight : normal !important;
+}
+.part__two,
+.part__three,
+.part__four{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.page__title{
+    position : absolute;
+    top : 34%;
+    left : 33%;
+
+    font-size : 100px;
+}
+
+.part{font-size : 70px;}
+
+/* PART ONE - DEFINITION */
+
+.definition-naturopathie{margin-top: 200px;}
+.part__one__definition{
+    margin-top: 30px;
+    text-align : center;
+}
+
+.definition__benefits{padding-left: 20%;}
+.image-fleur{
+    position: absolute;
+    top: 123%;
+    left: 59%;
+    width : 30%;
+    z-index: -1;
+}
+
+.techniques-utilise{
+    padding: 5%;
+    background-color: #FFFFFF;
+    width: 40%;
+    margin-left: 22%;
+    margin-top: 75px;
+}
+
+/* PART TWO - MEDECINE TRADI */
+.text-over{
+   position : absolute;
+   z-index : -1;
+}
+.oms{text-align: center;}
+.part__two__text{padding-top: 20px;}
+
+.medecine-tradi{
+    padding : 0 15%;
+    text-align : center;
+}
+
+/* PART THREE - NATUROTHERAPIE VS NATUROPATHIE */
+.part__three__text{text-align: center;}
+
+.versus{display : flex;}
+
+.versus__naturopathie,
+.versus__naturotherapie{
+    flex : 50%;
+    padding: 15px 5%;
+}
+
+.versus__naturopathie{
+    margin-right: 30px;
+    background-image: url("../img/bandeau.png");
+}
+
+.versus__naturotherapie{
+    margin-left: 30px;
+    background-image: url("../img/bandeau.png");
+}
+
+/* PART FOUR - POURQUOI LA NATUROPATHIE */
+.solutions{
+    text-align: center;
+    text-transform : uppercase;
+}
+.solutions__list{
+    padding-left: 38%;
+}
+
+
+
+

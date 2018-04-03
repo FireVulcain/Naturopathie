@@ -1,0 +1,74 @@
+li{list-style: none;}
+/* TITRE */
+.bandeau{
+    width : 100%;
+    height: 216px;
+    background-image: url("../img/bandeau.png");
+
+}
+
+.page__title,
+.deroulement__consultation,
+.tarif{
+    text-align: center;
+    color : #81af83;
+    font-family : tahu, sans-serif;
+    font-weight : normal !important;
+}
+
+.deroulement__consultation,
+.tarif{font-size: 70px;}
+
+.page__title{
+    position : absolute;
+    top : 35%;
+    left : 35%;
+
+    font-size : 100px;
+}
+
+/* CONSULTATION */
+.consultations{
+    padding: 30px;
+    display : flex;
+}
+
+.bilan-vita,
+.anamnese,
+.fiche-perso{
+    flex: 50%;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.consultations p{
+    text-align: justify;
+    text-align-last: center;
+}
+
+.deroulement__consultation{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+/*TARIFS ET PRISE EN CHARGE */
+.tarif{margin-bottom: 30px;}
+.tarifs-charge{
+    text-align: center;
+    padding : 30px 100px;
+    background-image : url("../img/tarif.png");
+}
+.list__programme{text-align: left;}
+.reduction{text-transform : uppercase;}
+
+/*PRENDRE RDV */
+.rendez_vous{text-align : center;}
+.button{
+    -webkit-border-radius : 10px !important;
+    -moz-border-radius : 10px !important;
+    border-radius : 10px !important;
+    color : #FFFFFF !important;
+    background-color: #e73a1d !important;
+}
