@@ -42,8 +42,8 @@
 .about-me__description{
     position: absolute;
     left: 36%;
-    width: 50%;
     bottom: -92%;
+    width: 50%;
     background-color: #FFFFFF;
     padding: 50px;
 }
@@ -51,6 +51,7 @@
 
 /* STYLE FORM */
 /*input*/
+.form__select,
 .form__name,
 .form__email,
 .form__message{
@@ -80,4 +81,28 @@
     -moz-border-radius : 10px !important;
     border-radius : 10px !important;
     background-color: #e73a1d !important;
+}
+
+@media screen and (max-width: 1000px){
+    .page__title{
+        position : static;
+        font-size : 65px;
+        margin-bottom: 0;
+    }
+    .name__description{
+        padding : 5%;
+        text-align: left;
+    }
+
+    .about{text-align: center;}
+    .about-me__description{
+        position : static;
+        width : 100%;
+        text-align: justify;
+    }
+    
+    .mon-parcours__description{padding : 5%;}
+    form{padding : 5%;}
+    .form__name,
+    .form__submit{width : 100%;}
 }

@@ -28,10 +28,10 @@
             La naturopathie est une science humaine qui a pour objectifs : <br>
         </p>
         <ul class="definition__benefits">
-            <li>De garder les personnes en bonne santé par des moyens naturels</li>
-            <li>De jouer un rôle d’éducateur car elle apprend à chaque personne à devenir autonome et à s’auto guérir</li>
-            <li>De responsabiliser chaque personne pour qu'elles prennent conscience des lois de causes à effets</li>
-            <li>D’accompagner chaque personne pour qu’elle puisse trouver l’harmonie avec elle-même et son environnement</li>
+            <li>De garder les personnes en bonne santé par des moyens naturels.</li>
+            <li>De jouer un rôle d’éducateur car elle apprend à chaque personne à devenir autonome et à s’auto guérir.</li>
+            <li>De responsabiliser chaque personne pour qu'elles prennent conscience des lois de causes à effets.</li>
+            <li>D’accompagner chaque personne pour qu’elle puisse trouver l’harmonie avec elle-même et son environnement.</li>
         </ul>
 
         <div class="techniques-utilise">
@@ -51,7 +51,7 @@
                 <li>Les élixirs floraux (de Bach, d’orchidée)</li>
             </ul>
         </div>
-        <img class="image-fleur" src = "<?php echo get_stylesheet_directory_uri() ?>/img/conference.png" alt = "micro" title="micro">
+        <img class="image-fleur" src = "<?php echo get_stylesheet_directory_uri() ?>/img/img-fleur.png" alt = "micro" title="micro">
 
     </div>
 
@@ -131,7 +131,7 @@
 
                     <br><br>
 
-                    Le thérapeute va utiliser des tchniques de soin naturels comme
+                    Le thérapeute va utiliser des techniques de soin naturels comme
                     <br>
                     des massage energiques,
                     <br>

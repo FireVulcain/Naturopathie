@@ -1,4 +1,6 @@
 li{list-style: none;}
+ul{padding: 0;}
+
 /* TITRE */
 .bandeau{
     width : 100%;
@@ -17,7 +19,7 @@ li{list-style: none;}
 .part__two,
 .part__three,
 .part__four{
-    margin-top: 100px;
+    margin-top: 10%;
     margin-bottom: 30px;
 }
 .page__title{
@@ -81,12 +83,12 @@ li{list-style: none;}
 
 .versus__naturopathie{
     margin-right: 30px;
-    background-image: url("../img/bandeau.png");
+    background-image: url("../img/naturopathie.png");
 }
 
 .versus__naturotherapie{
     margin-left: 30px;
-    background-image: url("../img/bandeau.png");
+    background-image: url("../img/naturotherapeute.png");
 }
 
 /* PART FOUR - POURQUOI LA NATUROPATHIE */
@@ -94,8 +96,35 @@ li{list-style: none;}
     text-align: center;
     text-transform : uppercase;
 }
-.solutions__list{
-    padding-left: 38%;
+.solutions__list{padding-left: 38%;}
+
+@media screen and (max-width: 1140px){
+    .page__title{left : 25%;}
+}
+
+@media screen and (max-width: 1000px){
+    .part{font-size : 40px;}
+    .page__title{
+        position : static;
+        font-size : 65px;
+    }
+
+    .definition-naturopathie {margin-top: 50px;}
+
+    .definition__benefits{padding : 5%;}
+
+    .image-fleur{display : none;}
+    .techniques-utilise{
+        width : 100%;
+        margin-left: 0
+    }
+
+    .medecine-tradi{text-align: left}
+
+    .versus{display : block;}
+    .versus__naturotherapie{margin-left: 0;}
+
+    .solutions__list{padding-left : 5%;}
 }
 
 

@@ -29,7 +29,7 @@
 
     <div class="about">
         <h3 class="about-me">À propos de moi</h3>
-        <img class="about__photo" src = "<?php echo get_stylesheet_directory_uri()?>/img/Photo_Nelly.png" alt = "nelly-violette" title="nelly-violette">
+        <img class="about__photo" src = "<?php echo get_stylesheet_directory_uri()?>/img/Photo_Nelly_2.png" alt = "nelly-violette" title="nelly-violette">
         <p class="about-me__description">
             Au cours d'une hospitalisation à l'âge de 9 ans, j'ai pris conscience que la santé était un cadeau dont il fallait
             prendre soin. <br><br>

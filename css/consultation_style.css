@@ -72,3 +72,34 @@ li{list-style: none;}
     color : #FFFFFF !important;
     background-color: #e73a1d !important;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .page__title {
+        position      : static;
+        font-size     : 80px;
+        margin-bottom : 0;
+    }
+    .deroulement__consultation,
+    .tarif{
+        padding : 5%;
+        font-size : 45px;
+        margin : 0;
+    }
+
+    .deroulement__consultation{margin-top: 50px;}
+    .consultations{
+        display : block;
+    }
+    .bilan-vita,
+    .anamnese{border-bottom : 1px solid #000000;}
+
+    .bilan-vita,
+    .anamnese,
+    .fiche-perso{margin-right: 0;}
+
+    .tarifs-charge{
+        padding: 5%;
+        text-align: left;
+    }
+}

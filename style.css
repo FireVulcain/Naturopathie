@@ -11,6 +11,8 @@
     font-family: tahu;
     src: url(font/Tahu!.ttf);
 }
+/* BARRE ADMIN */
+#wpadminbar a{color : #FFFFFF !important;}
 
 /*GENERAL*/
 body{background-color: #FFFFFF !important;}
@@ -103,7 +105,8 @@ a:hover{text-decoration: none;}
 .definition__title{
     color          : #81af83;
     font-family    : tahu, sans-serif;
-    font-size : 70px;
+    font-size : 80px;
+	font-weight : normal;
 }
 
 
@@ -231,4 +234,15 @@ a:hover{text-decoration: none;}
     .row{display : block;}
 }
 
+@media screen and (max-width: 900px){
+    .apropos{text-align: center;}
+    .photo{
+        width: 45%;
+        margin: 0;
+    }
+    .description{position : static;}
+}
 
+@media screen and (max-width: 460px){
+    .definition__title{font-size : 70px;}
+}

@@ -4,18 +4,18 @@
 */
 ?>
 <?php get_header(); ?>
-
+    <!-- NAV MENU -->
     <div class="header">
         <div class="container">
             <nav id="navigation-principale" role="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>
             </nav>
         </div>
-    </div>
+    </div><!-- ./end NAV MENU-->
 
     <header id="masthead" class="site-header" role="banner">
         <a href = "index.php">
-            <img src = "<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt = "logo" title="logo">
+            <img src = "<?php echo get_stylesheet_directory_uri(); ?>/img/logo-typo.png" alt = "logo" title="logo">
         </a>
         <?php
         /**
@@ -91,7 +91,7 @@
 
                                 <p class="article__savoirPlus">
                                     <a class="button savoirPlus" href="<?php the_permalink(); ?>">
-                                        Lire la suite &rarr;
+                                        Lire la suite
                                     </a>
                                 </p>
                             </div>
@@ -104,15 +104,17 @@
 
         <section class="apropos">
             <img class="photo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Photo_Nelly.png" />
-            <div class="description">
-                <p class="title">Nelly Violette</p>
-                <p class="subtitle">Naturopathe</p>
-                <p class="description__texte">
-                    <a href="index.php/qui-suis-je">
-                        Passioné de santé, médecine, nutrition et des sciences dans leur ensemble, j'ai toujours été fasciné par le pouvoir de guérison et la capacité d'adaptibilité du corps humain.
-                    </a>
-                </p>
-            </div>
+            <a href="index.php/qui-suis-je">
+                <div class="description">
+                    <p class="title">Nelly Violette</p>
+                    <p class="subtitle">Naturopathe</p>
+                    <p class="description__texte">
+
+                            Passioné de santé, médecine, nutrition et des sciences dans leur ensemble, j'ai toujours été fasciné par le pouvoir de guérison et la capacité d'adaptibilité du corps humain.
+
+                    </p>
+                </div>
+            </a>
         </section>
 
         <section class="consultations">
